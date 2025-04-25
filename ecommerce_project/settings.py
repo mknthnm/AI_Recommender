@@ -33,8 +33,8 @@ DEBUG = False
 ALLOWED_HOSTS = ['ai-recomender-k6wy.onrender.com', 'localhost', '127.0.0.1']
 
 # Add your environment variables for MongoDB and OpenAI
-OPENAI_KEY = os.environ.get("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")
-MONGO_URI = os.environ.get("mongodb+srv://storeadmin:adminakopanis@cluster0.5sm5wmt.mongodb.net/")
+OPENAI_KEY = os.getenv('OPENAI_KEY')
+MONGO_URI = os.environ.get("MONGO_URI")
 
 # Application definition
 
