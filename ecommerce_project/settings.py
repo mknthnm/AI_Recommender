@@ -30,7 +30,7 @@ import os
 # Environment variables
 SECRET_KEY = os.environ.get('yses@d7n@+ghh0yw1f((z)z*2p(aku9nbit(1r!6j!d!%&dau5', "fallback_dev_secret")
 DEBUG = False
-ALLOWED_HOSTS = ['ai-recomender-k6wy.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['ai-recommender-889s.onrender.com', 'localhost', '127.0.0.1']
 
 # Add your environment variables for MongoDB and OpenAI
 OPENAI_KEY = os.getenv('OPENAI_KEY')
